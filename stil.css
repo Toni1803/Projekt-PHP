@@ -85,18 +85,29 @@ hr {
 	font-weight: bold;
 	margin: 0.8em 1em 1.5em 1em;
 }
-#news_gallery figure {
+#vijesti_galerija figure {
 	padding: 0.5em;
 	margin: 0 1em 0.5em 1em;
 	float: left;
 	width: 10%;
 	border: 1px solid black;
 }
-#news_gallery figcaption {
+#vijesti_galerija figcaption {
 	font-size: 90%;
 	text-align: center;
 }
-
+#galerija figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 3px solid aqua;
+}
+#galerija figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
 figure {
 	padding: 0.5em;
 	margin: 0 1em 0.5em 1em;
@@ -109,6 +120,38 @@ figcaption {
 }
 img {
 	width: 100%;
+}
+#contact {
+	margin: 1em
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 footer {
 	background-color: #20B2AA;
@@ -136,4 +179,16 @@ footer img {
 	.vijesti time {
 		margin: 0 0 0 1em;
 	}
+	#vijesti_galerija figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#vijesti_galerija figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
 }
+
